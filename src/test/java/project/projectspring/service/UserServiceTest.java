@@ -1,17 +1,14 @@
 package project.projectspring.service;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.fail;
 
 import org.assertj.core.api.Assertions;
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import project.projectspring.domain.User;
 import project.projectspring.repository.MemoryUserRepository;
-import project.projectspring.repository.UserRepository;
 
 public class UserServiceTest {
 
