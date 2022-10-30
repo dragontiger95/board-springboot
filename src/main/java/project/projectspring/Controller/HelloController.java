@@ -1,4 +1,4 @@
-package project.projectspring.Controller;
+package project.projectspring.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,7 +10,7 @@ public class HelloController {
     @GetMapping("/hello")
     @ResponseBody
     public String hello(){
-        return "hi";
+        return "hi hello";
     }
 
 }
