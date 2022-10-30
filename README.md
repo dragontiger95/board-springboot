@@ -1,6 +1,6 @@
-# springboot-project
+# board-springboot
 
-## My example project
+## basic backend project
 
 ### TO_DO
 
